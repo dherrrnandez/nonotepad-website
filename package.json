@@ -1,0 +1,23 @@
+{
+  "name": "nonotepad-website",
+  "description": "This is the website of nonotepad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./source/style.scss ./source/style.css"
+  },
+  "dependencies": {
+    "re-csset": "^1.2.1",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherrrnandez/nonotepad-website.git"
+  },
+  "author": "Daniel Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dherrrnandez/nonotepad-website/issues"
+  }
+}
