@@ -7,10 +7,8 @@
     "sass": "sass --watch ./source/style.scss ./source/style.css"
   },
   "dependencies": {
-    "re-csset": "^1.2.1",
     "sass": "^1.57.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dherrrnandez/nonotepad-website.git"
