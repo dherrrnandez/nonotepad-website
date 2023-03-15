@@ -34,7 +34,6 @@ nav {
 nav a {
   padding: 1rem 0;
   text-align: center;
-  font-weight: 700;
   transition: letter-spacing 0.3s;
 }
 nav p {
