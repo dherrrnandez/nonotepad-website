@@ -81,25 +81,25 @@ nav a:hover {
   box-shadow: -10px -10px 20px -5px rgba(40, 40, 51, 0.5);
 }
 
-.info {
+#info {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-.info div {
+#info div {
   display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 8rem 1.5rem;
 }
-.info div p {
+#info div p {
   margin: 1rem 1rem;
   font-size: 1.5rem;
 }
-.info div:first-child {
+#info div:first-child {
   border-right: 3px solid #282833;
 }
-.info div:first-child p {
+#info div:first-child p {
   font-size: 2rem;
 }
 
@@ -115,18 +115,20 @@ nav a:hover {
   margin: 10rem 3rem;
   text-align: center;
 }
-#download button {
+#download a {
+  display: flex;
   height: 100%;
   width: 100%;
   font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
   background-color: #282833;
   color: #f5f0d4;
   font-weight: 700;
-  text-align: center;
   border-left: solid 3px #282833;
   transition: color 0.3s, background-color 0.3s;
 }
-#download button:hover {
+#download a:hover {
   background-color: #f5f0d4;
   color: #282833;
 }

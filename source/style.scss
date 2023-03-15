@@ -93,7 +93,7 @@ nav {
 }
 
 
-.info {
+#info {
     display: grid;
     grid-template-columns: 1fr 2fr;
 
@@ -132,20 +132,22 @@ nav {
         text-align: center;
     }
 
-    button {
+    a {
+        display: flex;
         height: 100%;
         width: 100%;
         font-size: 1.5rem;
+        align-items: center;
+        justify-content: center;
         background-color: $color;
         color: $bg;
         font-weight: 700;
-        text-align: center;
         border-left: solid 3px $color;
         
         transition: color 0.3s, background-color 0.3s;
     }
     
-    button:hover {
+    a:hover {
         background-color: $bg;
         color: $color;
         
